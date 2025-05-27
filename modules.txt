@@ -1,4 +1,4 @@
-# codeberg.org/JakobDev/xdg-go v0.1.0
+# codeberg.org/JakobDev/xdg-go v0.2.0
 ## explicit; go 1.23.4
 codeberg.org/JakobDev/xdg-go/desktop_entry
 codeberg.org/JakobDev/xdg-go/directory
@@ -28,6 +28,7 @@ github.com/shirou/gopsutil/v4/common
 github.com/shirou/gopsutil/v4/cpu
 github.com/shirou/gopsutil/v4/internal/common
 github.com/shirou/gopsutil/v4/mem
+github.com/shirou/gopsutil/v4/net
 # github.com/tklauser/go-sysconf v0.3.12
 ## explicit; go 1.13
 github.com/tklauser/go-sysconf
