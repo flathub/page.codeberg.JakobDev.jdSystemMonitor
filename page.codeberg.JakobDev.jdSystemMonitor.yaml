@@ -34,8 +34,8 @@ modules:
       - -Dgo-vendor-build=true
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdSystemMonitor/archive/1.0.tar.gz
-        sha256: 418c4fc6baee80081398c175da436b8d5361d66ca360464244478b48b35f299c
+        url: https://codeberg.org/JakobDev/jdSystemMonitor/archive/2.0.tar.gz
+        sha256: d804154e68d97c2f896907512267c8497ead628031398a8532a516dcdbdbc7c9
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdSystemMonitor/releases/latest
@@ -43,9 +43,3 @@ modules:
           url-query: .tarball_url
 
       - go.mod.yml
-
-      - type: patch
-        path: fix-appstream.patch
-
-      - type: patch
-        path: default-settings.patch

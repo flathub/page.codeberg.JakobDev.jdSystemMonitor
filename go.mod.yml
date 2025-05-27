@@ -3,10 +3,10 @@
   path: modules.txt
   type: file
 - dest: daemon/vendor/codeberg.org/JakobDev/xdg-go
-  sha256: 1f6b3ce38c33208091ef46e4c3e0e109da909dc5bf93d9808f7dc6d7c7200276
+  sha256: 3180b1161f67cf64fed86e0f544e13b9173e100abc94cd0f966c9df6d0dd150c
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/codeberg.org/!jakob!dev/xdg-go/@v/v0.1.0.zip
+  url: https://proxy.golang.org/codeberg.org/!jakob!dev/xdg-go/@v/v0.2.0.zip
 - dest: daemon/vendor/github.com/godbus/dbus/v5
   sha256: 03dfa8e71089a6f477310d15c4d3a036d82d028532881b50fee254358e782ad9
   strip-components: 4
